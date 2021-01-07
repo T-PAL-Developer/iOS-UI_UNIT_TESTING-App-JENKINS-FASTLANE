@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52A0EA3525A7812200439949 /* wallcalcaroniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0EA3425A7812200439949 /* wallcalcaroniUITests.swift */; };
 		52BC557425A65966009A222A /* CalculationManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC557325A65966009A222A /* CalculationManagerTests.swift */; };
 		52BC558B25A67055009A222A /* CalculatorViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC558A25A67055009A222A /* CalculatorViewControllerTests.swift */; };
 		719392621FFEDC6D00E5E849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719392611FFEDC6D00E5E849 /* AppDelegate.swift */; };
@@ -19,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		52A0EA3725A7812200439949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 719392561FFEDC6D00E5E849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7193925D1FFEDC6D00E5E849;
+			remoteInfo = wallcalcaroni;
+		};
 		52BC556C25A658F0009A222A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 719392561FFEDC6D00E5E849 /* Project object */;
@@ -29,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52A0EA3225A7812200439949 /* wallcalcaroniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wallcalcaroniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A0EA3425A7812200439949 /* wallcalcaroniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wallcalcaroniUITests.swift; sourceTree = "<group>"; };
+		52A0EA3625A7812200439949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52BC556725A658EF009A222A /* wallcalcaroniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wallcalcaroniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BC556B25A658F0009A222A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52BC557325A65966009A222A /* CalculationManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationManagerTests.swift; sourceTree = "<group>"; };
@@ -45,6 +56,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		52A0EA2F25A7812200439949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52BC556425A658EF009A222A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52A0EA3325A7812200439949 /* wallcalcaroniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52A0EA3425A7812200439949 /* wallcalcaroniUITests.swift */,
+				52A0EA3625A7812200439949 /* Info.plist */,
+			);
+			path = wallcalcaroniUITests;
+			sourceTree = "<group>";
+		};
 		52BC556825A658EF009A222A /* wallcalcaroniTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +104,7 @@
 			children = (
 				719392601FFEDC6D00E5E849 /* wallcalcaroni */,
 				52BC556825A658EF009A222A /* wallcalcaroniTests */,
+				52A0EA3325A7812200439949 /* wallcalcaroniUITests */,
 				7193925F1FFEDC6D00E5E849 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,6 +114,7 @@
 			children = (
 				7193925E1FFEDC6D00E5E849 /* wallcalcaroni.app */,
 				52BC556725A658EF009A222A /* wallcalcaroniTests.xctest */,
+				52A0EA3225A7812200439949 /* wallcalcaroniUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +161,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		52A0EA3125A7812200439949 /* wallcalcaroniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A0EA3B25A7812200439949 /* Build configuration list for PBXNativeTarget "wallcalcaroniUITests" */;
+			buildPhases = (
+				52A0EA2E25A7812200439949 /* Sources */,
+				52A0EA2F25A7812200439949 /* Frameworks */,
+				52A0EA3025A7812200439949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52A0EA3825A7812200439949 /* PBXTargetDependency */,
+			);
+			name = wallcalcaroniUITests;
+			productName = wallcalcaroniUITests;
+			productReference = 52A0EA3225A7812200439949 /* wallcalcaroniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		52BC556625A658EF009A222A /* wallcalcaroniTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52BC556E25A658F0009A222A /* Build configuration list for PBXNativeTarget "wallcalcaroniTests" */;
@@ -177,6 +224,11 @@
 				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Tomasz Paluszkiewicz";
 				TargetAttributes = {
+					52A0EA3125A7812200439949 = {
+						CreatedOnToolsVersion = 12.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7193925D1FFEDC6D00E5E849;
+					};
 					52BC556625A658EF009A222A = {
 						CreatedOnToolsVersion = 12.3;
 						ProvisioningStyle = Automatic;
@@ -204,11 +256,19 @@
 			targets = (
 				7193925D1FFEDC6D00E5E849 /* wallcalcaroni */,
 				52BC556625A658EF009A222A /* wallcalcaroniTests */,
+				52A0EA3125A7812200439949 /* wallcalcaroniUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		52A0EA3025A7812200439949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52BC556525A658EF009A222A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,6 +289,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		52A0EA2E25A7812200439949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A0EA3525A7812200439949 /* wallcalcaroniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52BC556325A658EF009A222A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,6 +320,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		52A0EA3825A7812200439949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7193925D1FFEDC6D00E5E849 /* wallcalcaroni */;
+			targetProxy = 52A0EA3725A7812200439949 /* PBXContainerItemProxy */;
+		};
 		52BC556D25A658F0009A222A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7193925D1FFEDC6D00E5E849 /* wallcalcaroni */;
@@ -279,6 +352,43 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		52A0EA3925A7812200439949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UADL7D88KK;
+				INFOPLIST_FILE = wallcalcaroniUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.t-pal.wallcalcaroniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wallcalcaroni;
+			};
+			name = Debug;
+		};
+		52A0EA3A25A7812200439949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UADL7D88KK;
+				INFOPLIST_FILE = wallcalcaroniUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.t-pal.wallcalcaroniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wallcalcaroni;
+			};
+			name = Release;
+		};
 		52BC556F25A658F0009A222A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -470,6 +580,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		52A0EA3B25A7812200439949 /* Build configuration list for PBXNativeTarget "wallcalcaroniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A0EA3925A7812200439949 /* Debug */,
+				52A0EA3A25A7812200439949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		52BC556E25A658F0009A222A /* Build configuration list for PBXNativeTarget "wallcalcaroniTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
