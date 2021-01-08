@@ -25,7 +25,8 @@ class wallcalcaroniUITests: XCTestCase {
     func testButtons_WhenTapped_ShouldShowResult() {
         app.buttons["1"].tap()
         app.buttons["2"].tap()
-        XCTAssertTrue(app.staticTexts["12"].exists)
+        app.buttons["3"].tap()
+        XCTAssertTrue(app.staticTexts["123"].exists)
     }
   
 }
